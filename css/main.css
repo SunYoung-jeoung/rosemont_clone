@@ -1,0 +1,400 @@
+@charset "utf-8";
+@import "reset.css";
+@import "layout.css";
+
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UNPGothicKS';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/UNPGothicKS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* header */
+header {
+    font-family: 'MapoFlowerIsland';
+    height: 80px;
+    background: #fff;
+    position: relative;
+}
+.top-menu {
+    height: 80px;
+}
+.logo-img {
+    width: 110px;
+    height: 56.66px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.wrap li {
+    display: inline-block;
+}
+.left-icon {
+    position: absolute;
+    top: 0;
+    left: 11%;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.left-icon a {
+    padding-right: 20px;
+}
+.right-icon {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
+.right-icon a {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.gnb-menu {
+    height: 33px;
+    background: #fff;
+    text-align: center;
+}
+.gnb-menu ul a {
+    color: #666;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 15px 10px;
+    min-width: 90px;
+    margin: 0 30px;
+}
+
+/* img-wep-view */
+.img-wep-view {
+    font-family: 'MapoFlowerIsland';
+    height: 100vh;
+    background: url(../image/resemont_main_bg.jpg) no-repeat center/cover;
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+.text-box {
+    margin: 150px 20px;
+    width: 766.8px;
+}
+.ssimg, .lavieenrose-img, .ssTxt2, .btn-more {
+    width: 766.8px;
+    text-align: center;
+}
+
+.ssimg img{
+    width: 150px;
+    padding: 40px 0;
+}
+.lavieenrose-img img {
+    width: 550px;
+    padding: 20px 0 40px 0;
+}
+.ssTxt2 p {
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #A26159;
+}
+.btn-more span a{
+    width: 223.08px;
+    text-transform: uppercase;
+    background: #E4AFA6;
+    color: #fff;
+    padding: 5px 30px;
+}
+
+/* jewelry-new */
+.jewelry-new {
+    font-family: 'MapoFlowerIsland';
+    padding: 110px 0 ;
+    text-align: center;
+}
+.jewelry-new .inner .title {
+    text-transform: uppercase;
+    color: #333;
+}
+.jewelry-new .inner .s-news {
+    text-transform: uppercase;
+    color: #666;
+    padding: 25px 0px 40px;
+}
+.info img{
+    width: 140px;
+    height: 246px;
+    margin: 30px 0;
+}
+.jewelry-new .inner .btn {
+    font-size: 12.8px;
+    background: #333;
+    color: #fff;
+    padding: 11px 30px;
+}
+.product-line {
+    margin: 50px 0 0;
+}
+.product-line img {
+    width: 215px;
+    height: 156px;
+}
+.product-line li {
+    display: inline-block;
+}
+.product-line li p {
+    color: #787878;
+    font-size: 15px;
+    margin: 10px 0 0;
+}
+
+/* jewelry-harf-bg */
+.jewelry-harf-bg {
+    font-family: 'MapoFlowerIsland';
+    height: 100vh;
+    background: url(../image/main_ss20_banner1.jpg) no-repeat center/cover;
+    position: relative;
+}
+.jewelry-harf-bg .collection {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 670.94px;
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #ffffffB3;
+    color: #333;
+}
+.jewelry-harf-bg .collection h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.jewelry-harf-bg .collection a {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 30px;
+    background: #333;
+    color: #fff;
+    font-size: 12.8px;
+}
+
+
+/* watch-new */
+.watch-new {
+    font-family: 'MapoFlowerIsland';
+    padding: 110px 0 ;
+    text-align: center;
+}
+.watch-new .inner .title {
+    text-transform: uppercase;
+    color: #333;
+}
+.watch-new .inner .s-news {
+    text-transform: uppercase;
+    color: #666;
+    padding: 25px 0px 40px;
+}
+.info img{
+    width: 98.75px;
+    height: 250px;
+    margin: 30px 0;
+}
+.watch-new .inner .btn {
+    font-size: 12.8px;
+    background: #333;
+    color: #fff;
+    padding: 11px 30px;
+}
+.product-line {
+    margin: 50px 0 0;
+}
+.watch-new .product-line img {
+    width: 109.48px;
+    height: 150px;
+}
+.watch-new .product-line li {
+    display: inline-block;
+    width: 160px;
+    height: 182px;
+}
+.product-line li p {
+    color: #787878;
+    font-size: 15px;
+    margin: 10px 0 0;
+}
+
+/* watch-harf-bg */
+.watch-harf-bg {
+    font-family: 'MapoFlowerIsland';
+    height: 100vh;
+    background: url(../image/main_ss20_banner2.jpg) no-repeat center/cover;
+    position: relative;
+}
+.watch-harf-bg .collection {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 670.94px;
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #ffffffB3;
+    color: #333;
+}
+.watch-harf-bg .collection h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.watch-harf-bg .collection a {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 30px;
+    background: #333;
+    color: #fff;
+    font-size: 12.8px;
+}
+
+/* sns-connect */
+.sns-connect {
+    font-family: 'MapoFlowerIsland';
+    text-align: center;
+    padding: 70px 0;
+}
+.sns-connect h1 {
+    color: #666;
+    font-size: 22.5px;
+    margin: 20px 0px 0;
+    text-transform: uppercase;
+}
+.sns-connect a {
+    color: #333;
+    font-size: 15px;
+    margin: 30px 0 0;
+}
+.sns-connect a:hover img {
+    transform: scale(1.1);
+}
+.sns-connect li {
+    display: inline-block;
+    margin-top: 50px;
+}
+.sns-connect .sns-img img {
+    width: 184.66px;
+    height: 184.66px;
+    padding: 10px;
+    transition: 1s;
+}
+
+/* newsletter */
+.newsletter {
+    font-family: 'UNPGothicKS';
+    text-align: center;
+    margin: 0 283.5px;
+    padding: 70px 0;
+    background: #f9f8f8;
+}
+.newsletter h1 {
+    color: #666;
+    font-size: 22.5px;
+    margin: 0 0 40px;
+}
+.newsletter p {
+    color: #333;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+input#user-email {
+    width: 300px;
+    height: 30px;
+    border-style: none;
+    border: 1px solid #eee;
+    font-size: 12px;
+    background: #fff;
+    padding: 5px;
+    margin: 10px;
+}
+input[type="checkbox"] {
+    width: 10px;
+    opacity: .3;
+    padding: 40px;
+    font-size: 10px;
+}
+input[type="checkbox"] + label span {
+    font-size: 13px;
+}
+.newsletter a {
+    font-family: 'MapoFlowerIsland';
+    color: #fff;
+    background: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 11px 30px;
+    margin: 20px 0;
+}
+
+/* footer */
+.footer-bg-wrap {
+    font-family: 'MapoFlowerIsland';
+    background: #111;
+    color: #fff;
+    height: 405px;
+    font-weight: 600;
+}
+.foot-sec-wrap {
+    padding: 30px 180px;
+}
+.foot-sec-wrap li {
+    display: inline-block;
+}
+.foot-sec-wrap .foot-menu-title {
+    display: block;
+    padding: 20px 0;
+}
+.foot-menu-list li {
+    display: block;
+    padding-top: 10px;
+}
+.menu-box {
+    margin: 10px 60px;
+}
+
+.copyright {
+    font-family: 'S-CoreDream-1Thin';
+    margin-top: 70px;
+    border-top: 1px solid rgba(255, 255, 255, 0.233);
+    text-align: center;
+}
+.copyright span {
+    font-size: 10px;
+    padding-top: 30px;
+    display: block;
+}
